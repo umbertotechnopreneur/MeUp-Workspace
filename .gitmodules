@@ -1,0 +1,12 @@
+[submodule "MailMeUp"]
+	path = MailMeUp
+	url = https://github.com/umbertotechnopreneur/MailMeUp.git
+	branch = main
+[submodule "PromptMeUp"]
+	path = PromptMeUp
+	url = https://github.com/umbertotechnopreneur/PromptMeUp.git
+	branch = main
+[submodule "TrackMeUp"]
+	path = TrackMeUp
+	url = https://github.com/umbertotechnopreneur/TrackMeUp.git
+	branch = main
