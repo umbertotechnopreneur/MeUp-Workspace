@@ -6,7 +6,8 @@ These rules apply to every project checked out through this workspace. A project
 
 - Keep repository artifacts, source code, comments, command-line strings, and commit messages in English. Use the owner's preferred language in conversation.
 - Preserve unrelated working-tree changes. Do not commit credentials, access tokens, private data, local configuration, logs, generated artifacts, or machine-specific paths.
-- Work on focused branches. Open a pull request and use squash merge only after required checks and review conversations are resolved. Do not bypass repository protections.
+- For documentation-only or repository-instruction-only changes, commit and push directly on the current branch, including `main`, without creating a branch or opening a pull request. The owner authorizes using existing administrator bypass rights for this exception; do not change repository protection settings. Include `[skip ci]` in the commit message unless the owner explicitly requests CI.
+- For all other changes, work on focused branches. Open a pull request and use squash merge only after required checks and review conversations are resolved. Do not bypass repository protections for these changes.
 
 ## Engineering practice
 
